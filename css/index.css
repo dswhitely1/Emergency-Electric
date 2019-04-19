@@ -73,3 +73,16 @@ h6 {
     height: 100vh;
   }
 }
+.contact {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .contact .right-text {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) {
+  .contact .left-text {
+    text-align: left;
+  }
+}
